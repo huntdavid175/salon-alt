@@ -1,0 +1,22 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="80" y1="80" x2="820" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F1EB"/>
+      <stop offset="0.35" stop-color="#E3D7C9"/>
+      <stop offset="0.7" stop-color="#BFA98D"/>
+      <stop offset="1" stop-color="#6B5A46"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" rx="60" fill="url(#g)"/>
+  <g filter="url(#s)">
+    <path d="M122 710C160 565 260 440 398 420C512 403 620 470 694 569C744 637 770 710 790 780H122V710Z" fill="rgba(0,0,0,0.18)"/>
+    <path d="M212 680C260 555 345 470 450 465C560 458 640 540 690 645C715 696 732 738 744 780H212V680Z" fill="rgba(255,255,255,0.20)"/>
+    <path d="M170 300C230 250 310 220 405 230C515 242 605 315 650 420C692 520 668 605 602 662C528 726 420 736 328 680C228 615 160 460 170 300Z" fill="rgba(0,0,0,0.10)"/>
+  </g>
+  <circle cx="180" cy="170" r="120" fill="rgba(255,255,255,0.22)"/>
+  <circle cx="720" cy="210" r="140" fill="rgba(255,255,255,0.16)"/>
+</svg>
+
