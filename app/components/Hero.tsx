@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import type { SVGProps } from "react";
-import { BOOKING_URL } from "../lib/links";
+import { BOOKING_URL, MAPS_URL } from "../lib/links";
 import { MotionConfig, motion, type Variants } from "framer-motion";
 
 function ArrowRightIcon(props: SVGProps<SVGSVGElement>) {
@@ -65,7 +65,7 @@ export function Hero() {
             animate="show"
           >
             <motion.h1
-              className="text-balance text-5xl font-semibold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl"
+              className="text-balance text-[42px] font-semibold leading-[1.02] tracking-tight md:text-[60px]"
               variants={textItem}
             >
               Premier Hair Services
@@ -94,7 +94,9 @@ export function Hero() {
                 Book Online
               </a>
               <a
-                href="#directions"
+                href={MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-xl border border-white/35 px-5 text-sm font-semibold text-white transition-colors hover:border-white/55 hover:bg-white/5"
               >
                 Get Directions

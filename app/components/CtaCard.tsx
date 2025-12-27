@@ -1,5 +1,5 @@
 import type { SVGProps } from "react";
-import { BOOKING_URL } from "../lib/links";
+import { BOOKING_URL, MAPS_URL } from "../lib/links";
 
 function ArrowRightIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -63,7 +63,9 @@ export function CtaCard() {
                 Book Online
               </a>
               <a
-                href="#directions"
+                href={MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-white/40 px-6 text-sm font-semibold text-white transition-colors hover:border-white/55 hover:bg-white/5"
               >
                 Get Directions
